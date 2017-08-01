@@ -1,0 +1,18 @@
+.dual-list .list-group {
+  margin-top: 8px;
+}
+.list-left li, .list-right li {
+  cursor: pointer;
+}
+.list-arrows {
+  padding-top: 100px;
+}
+.list-arrows button {
+  margin-bottom: 20px;
+}
+/* CSS used here will be applied after bootstrap.css */
+
+ol li.list-group-item {
+  list-style: decimal inside;
+  display: list-item;
+}

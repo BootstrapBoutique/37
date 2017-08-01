@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>www.bootstrap.boutique</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="assets/js/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/vendors/Sortable.min.js"></script>
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <small>Get more @<a href="http://bootstrap.boutique"> Bootstrap Boutique</a></small>
+        <a href="https://github.com/bbilginn/bootstrap-duallist" target="_blank">github</a>
+      </div>
+    </div>
+    <p></p>
+
+    <div class="row">
+      <div class="col-md-12">
+
+
+
+        <div class="dual-list list-left col-md-5">
+          <div class="well text-right">
+            <div class="row">
+              <div class="col-md-10">
+
+                <div class="form-group has-feedback">
+                  <input class="form-control" placeholder="Live Search" name="SearchDualList" autocomplete="off" spellcheck="false" dir="auto" type="text">
+                  <span class="form-control-feedback">
+                    <i class="fa fa-search"> </i>
+                  </span>
+                </div>
+
+              </div>
+
+              <div class="col-md-2">
+                <div class="btn-group">
+                  <a class="btn btn-default selector" title="select all"><i class="glyphicon glyphicon-unchecked"></i></a>
+                </div>
+              </div>
+            </div>
+            <ul class="list-group my-sortable-left">
+              <li class="list-group-item">task 1</li>
+              <li class="list-group-item">task 2</li>
+              <li class="list-group-item">task 3</li>
+              <li class="list-group-item">task 4</li>
+              <li class="list-group-item">task 5</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-arrows col-md-1 text-center">
+          <button class="btn btn-default btn-sm move-left">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </button>
+
+          <button class="btn btn-default btn-sm move-right">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+        </div>
+
+        <div class="dual-list list-right col-md-5">
+          <div class="well">
+            <div class="row">
+              <div class="col-md-2">
+                <div class="btn-group">
+                  <a class="btn btn-default selector" title="select all"><i class="glyphicon glyphicon-unchecked"></i></a>
+                </div>
+              </div>
+              <div class="col-md-10">
+
+                <div class="form-group has-feedback">
+                  <input class="form-control" placeholder="Live Search" name="SearchDualList" autocomplete="off" spellcheck="false" dir="auto" type="text">
+                  <span class="form-control-feedback">
+                    <i class="fa fa-search"> </i>
+                  </span>
+                </div>
+
+              </div>
+            </div>
+            <ul class="list-group" id="my-sortable-right">
+              <li class="list-group-item">task 6</li>
+              <li class="list-group-item">task 7</li>
+              <li class="list-group-item">task 8</li>
+              <li class="list-group-item">task 9</li>
+              <li class="list-group-item">task 10</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <!-- class="col-md-12" -->
+    </div>
+    <!-- class="row" -->
+
+
+  </div>
+  <!-- class="container" -->
+
+  <script src="1.js"></script>
+</body>
+
+</html>
